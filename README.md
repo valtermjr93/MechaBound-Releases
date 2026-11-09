@@ -2,23 +2,21 @@
 
 Jogo 2D de artilharia por turnos para Windows x64.
 
-**Versão atual: [v0.8.0](https://github.com/valtermjr93/MechaBound-Releases/releases/tag/v0.8.0)**
+**Versão atual: [v0.9.0](https://github.com/valtermjr93/MechaBound-Releases/releases/tag/v0.9.0)**
 
-- [Baixar launcher com o jogo incluído](https://github.com/valtermjr93/MechaBound-Releases/releases/download/v0.8.0/MechaBound-Launcher-Windows-x64.zip)
-- [Baixar somente o jogo](https://github.com/valtermjr93/MechaBound-Releases/releases/download/v0.8.0/MechaBound-Windows-x64.zip)
-- [Checksums SHA-256 dos dois pacotes](https://github.com/valtermjr93/MechaBound-Releases/releases/download/v0.8.0/SHA256SUMS.txt)
+- [Baixar launcher com o jogo incluído](https://github.com/valtermjr93/MechaBound-Releases/releases/download/v0.9.0/MechaBound-Launcher-Windows-x64.zip)
+- [Baixar somente o jogo](https://github.com/valtermjr93/MechaBound-Releases/releases/download/v0.9.0/MechaBound-Windows-x64.zip)
+- [Checksums SHA-256 dos dois pacotes](https://github.com/valtermjr93/MechaBound-Releases/releases/download/v0.9.0/SHA256SUMS.txt)
 
-## Novidades da v0.8.0
+## Novidades da v0.9.0
 
-Mapas de 2.304 px, pontes com apoios e ponte nevada arqueada com pilares cobertos de neve. Zoom por scroll e Page Up/Page Down. Satélite fixo no centro do mapa.
+Terreno destrutível nas duas fases, com crateras de mísseis e cortes do Laser. Mechas caem ao perder apoio. Cair fora da fase dá vitória ao adversário. R restaura o terreno.
 
-Flutuação aumenta o limite compartilhado do turno para 250 px, descontando o percurso já usado no chão. Shift sobe, Ctrl desce e S/D ou ↑/↓ ajustam a mira. Ao zerar, o mecha fica suspenso até atirar ou passar a vez, pousando naquele ponto ao encerrar o turno.
-
-Dual, Super e Flutuação têm 3 cargas cada por mecha e por partida. Laser libera no turno geral 7 e recarrega após 5 turnos jogáveis próprios. A HUD mostra o último ângulo e a força de disparo de cada mecha. Veja o histórico completo no CHANGELOG.
+HUD Aço Industrial com carga dourada, contorno e previsão de três turnos por ícones. A seta indica o próximo turno. Laser informa quantos turnos faltam. A câmera enquadra a ponte acima da HUD. Veja o histórico completo no CHANGELOG.
 
 ## Launcher
 
-Extraia o ZIP inteiro em uma pasta pessoal e abra **MechaBound Launcher.exe**. O pacote inclui o jogo v0.8.0 e o runtime. Não precisa instalar Godot ou .NET nem executar como administrador.
+Extraia o ZIP inteiro em uma pasta pessoal e abra **MechaBound Launcher.exe**. O pacote inclui o jogo v0.9.0 e o runtime. Não precisa instalar Godot ou .NET nem executar como administrador.
 
 Ao abrir, o launcher verifica a última versão estável e pede confirmação antes de atualizar:
 

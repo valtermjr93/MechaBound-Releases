@@ -1,5 +1,21 @@
 # Histórico público
 
+## v0.9.0 — 09/11/2026
+
+Esta versão reúne os ajustes desde a v0.8.0.
+
+- Terreno destrutível nas duas fases. Mísseis abrem crateras na ponte, neve e apoios. Super Shot abre crateras maiores. O Laser corta o cenário seguindo o trajeto do feixe, inclusive após o desvio no espelho.
+- As colisões acompanham os buracos. Mechas perdem o apoio e caem com gravidade. Cair para fora da fase dá vitória ao adversário. Queda simultânea dos dois mechas termina em empate.
+- O encerramento do turno aguarda a queda se resolver. Ao terminar a Flutuação sobre um buraco, o mecha cai. R restaura o terreno e reinicia a partida.
+- HUD Aço Industrial aprovada, com moldura de aço desgastado, parafusos, iluminação âmbar e carga dourada. Valores, barra e ícones são atualizados pelo jogo.
+- Barra de carga com contorno visível de 0% a 100%. Histórico de ângulo e força, vento e tempo permanecem no painel. Laser e cargas dos poderes aparecem na faixa inferior.
+- Previsão de espelho para os próximos três turnos, da esquerda para a direita. Espelho indica obstáculo e sol indica passagem livre. Uma seta marca o primeiro ícone. A previsão avança uma vez por turno encerrado.
+- Removidos o campo de vez e o título da previsão da HUD inferior.
+- Laser mostra quantos turnos faltam. A espera inicial usa turnos gerais e a recarga usa turnos próprios. Disponibilidade no turno geral 7 e recarga de 5 turnos próprios preservadas.
+- Enquadramento elevado para manter a ponte acima da HUD nas duas fases, com ajuste ao zoom e visibilidade do mecha ativo.
+- Geometria estática em cache e máscaras de destruição atualizadas por impacto. Arte e versões anteriores preservadas.
+- Validação com 37 testes Godot, 21 testes do launcher, conferência visual nas duas fases e testes do executável exportado e da atualização pública com confirmação.
+
 ## v0.8.0 — 09/11/2026
 
 Esta versão reúne todos os ajustes desde a v0.7.0.
