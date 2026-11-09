@@ -1,5 +1,19 @@
 # Histórico público
 
+## v0.11.0 — 09/11/2026
+
+Alterações desde a v0.10.0.
+
+- Espelho, ventilador e gravidade reduzida duram quatro turnos gerais cada.
+- Quando não há evento ativo, a chance total de iniciar um evento é de 12,5%. Os 87,5% restantes mantêm o turno sem evento. Os três tipos têm chances iguais e os blocos não se sobrepõem.
+- O espelho permanece na mesma posição durante os quatro turnos.
+- O ventilador usa o ícone V1 aprovado e sorteia um vento diferente em cada turno do evento.
+- Fora do ventilador, o vento muda em intervalos sorteados de 7, 8 ou 9 turnos gerais. Ao terminar o evento, começa uma nova contagem sorteada.
+- A gravidade reduzida usa o ícone G3 aprovado e aplica 5% da gravidade normal aos projéteis e às quedas dos mechas. O Super Shot continua 50% mais pesado que o padrão.
+- A HUD prevê os próximos três turnos com espelho, sol, ventilador ou gravidade com X. A seta identifica o primeiro. O texto informa a duração restante do ventilador e da gravidade reduzida.
+- O cálculo dos arcos do DoomShot acompanha a gravidade ativa e limita o planejamento ao tempo de vida dos projéteis.
+- Validação com 40 testes Godot, testes do executável exportado, renderização das duas fases e 21 cenários do launcher. Atualização pública com confirmação validada após a publicação.
+
 ## v0.10.0 — 09/11/2026
 
 Esta versão reúne as alterações desde a v0.9.0.

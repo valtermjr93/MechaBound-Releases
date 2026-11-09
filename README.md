@@ -2,21 +2,27 @@
 
 Jogo 2D de artilharia por turnos para Windows x64.
 
-**Versão atual: [v0.10.0](https://github.com/valtermjr93/MechaBound-Releases/releases/tag/v0.10.0)**
+**Versão atual: [v0.11.0](https://github.com/valtermjr93/MechaBound-Releases/releases/tag/v0.11.0)**
 
-- [Baixar launcher com o jogo incluído](https://github.com/valtermjr93/MechaBound-Releases/releases/download/v0.10.0/MechaBound-Launcher-Windows-x64.zip)
-- [Baixar somente o jogo](https://github.com/valtermjr93/MechaBound-Releases/releases/download/v0.10.0/MechaBound-Windows-x64.zip)
-- [Checksums SHA-256 dos dois pacotes](https://github.com/valtermjr93/MechaBound-Releases/releases/download/v0.10.0/SHA256SUMS.txt)
+- [Baixar launcher com o jogo incluído](https://github.com/valtermjr93/MechaBound-Releases/releases/download/v0.11.0/MechaBound-Launcher-Windows-x64.zip)
+- [Baixar somente o jogo](https://github.com/valtermjr93/MechaBound-Releases/releases/download/v0.11.0/MechaBound-Windows-x64.zip)
+- [Checksums SHA-256 dos dois pacotes](https://github.com/valtermjr93/MechaBound-Releases/releases/download/v0.11.0/SHA256SUMS.txt)
 
-## Novidades da v0.10.0
+## Novidades da v0.11.0
 
-DoomShot Cerco Titã pelo sexto cartão do arsenal ou tecla 5. Transformação articulada em tanque, carga energética e dez mísseis de 300 de dano direto, até 3.000 no conjunto. Um uso por jogador, consumido ao selecionar. A escolha fica travada até disparar ou encerrar o turno, mesmo que a oportunidade termine sem disparo.
-
-O especial libera após 20 turnos gerais concluídos, no turno 21, ou com vida em 15% ou menos. Vida total de 5.000 pontos, exibida em porcentagem. Míssil padrão causa 200, Dual lança dois de 200, Super causa 300 e Laser causa até 1.000. Gravidade de 360 no padrão e 540 no Super. Veja o histórico completo no CHANGELOG.
+- Espelho, ventilador e gravidade reduzida duram quatro turnos gerais cada.
+- Quando não há evento ativo, a chance total de iniciar um evento é de 12,5%. Os 87,5% restantes mantêm o turno sem evento. Os três tipos têm chances iguais e os blocos não se sobrepõem.
+- O espelho permanece na mesma posição durante os quatro turnos.
+- O ventilador usa o ícone V1 aprovado e sorteia um vento diferente em cada turno do evento.
+- Fora do ventilador, o vento muda em intervalos sorteados de 7, 8 ou 9 turnos gerais. Ao terminar o evento, começa uma nova contagem sorteada.
+- A gravidade reduzida usa o ícone G3 aprovado e aplica 5% da gravidade normal aos projéteis e às quedas dos mechas. O Super Shot continua 50% mais pesado que o padrão.
+- A HUD prevê os próximos três turnos com espelho, sol, ventilador ou gravidade com X. A seta identifica o primeiro. O texto informa a duração restante do ventilador e da gravidade reduzida.
+- O cálculo dos arcos do DoomShot acompanha a gravidade ativa e limita o planejamento ao tempo de vida dos projéteis.
+- Validação com 40 testes Godot, testes do executável exportado, renderização das duas fases e 21 cenários do launcher. Atualização pública com confirmação validada após a publicação.
 
 ## Launcher
 
-Extraia o ZIP inteiro em uma pasta pessoal e abra **MechaBound Launcher.exe**. O pacote inclui o jogo v0.10.0 e o runtime. Não precisa instalar Godot ou .NET nem executar como administrador.
+Extraia o ZIP inteiro em uma pasta pessoal e abra **MechaBound Launcher.exe**. O pacote inclui o jogo v0.11.0 e o runtime. Não precisa instalar Godot ou .NET nem executar como administrador.
 
 Ao abrir, o launcher verifica a última versão estável e pede confirmação antes de atualizar:
 
