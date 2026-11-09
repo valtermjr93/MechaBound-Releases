@@ -1,5 +1,22 @@
 # Histórico público
 
+## v0.10.0 — 09/11/2026
+
+Esta versão reúne as alterações desde a v0.9.0.
+
+- Gravidade base dos projéteis reduzida de 600 para 360. Super Shot usa 540, mantendo peso 50% maior. Normal e Dual alcançam a distância inicial entre os mechas contra vento de intensidade 79. Entre as extremidades absolutas, precisam de vento neutro ou favorável.
+- Vida interna aumentada para 5.000 pontos, exibida como porcentagem inteira sobre cada mecha. Frações de dano permanecem no cálculo interno.
+- Míssil padrão causa 200 pontos por acerto direto. Dual lança dois mísseis de 200. Super Shot causa 300. Dano de proximidade de 80 no padrão e 120 no Super, em raio de 80 px.
+- Laser causa até 1.000 pontos, equivalentes a 20% da vida total. Acertos parciais seguem a proporção da largura branca do feixe sobre o primeiro alvo. Corrigido arredondamento interno que podia descontar um ponto extra. Danos fracionários pequenos também são preservados com a nova vida máxima.
+- DoomShot Cerco Titã adicionado ao sexto cartão do arsenal e à tecla 5, com ícone e míssil aprovados.
+- O especial libera após 20 turnos gerais concluídos, a partir do turno 21, ou quando o próprio mecha tem 750 pontos de vida ou menos, equivalentes a 15%.
+- Cada jogador possui um uso por partida. Selecionar consome imediatamente a carga e trava a escolha até disparar ou encerrar o turno. F2 e tempo esgotado gastam a oportunidade mesmo sem disparo. Perder o foco cancela a carga de força e mantém o especial selecionado.
+- DoomShot lança dez mísseis de 300 pontos, totalizando até 3.000 de dano direto. A saraivada tem intervalo de 0,11 s, arcos variados e impactos próximos da mira. Cada míssil mantém ricochete e colisão independentes. Quase acertos causam 120 por míssil.
+- Transformação articulada contínua para tanque e retorno ao exoesqueleto, com pernas recolhidas, esteiras abertas, cockpit abaixado, canhão deslocado e peças azuis/vermelhas independentes. Cada sentido dura 1,2 s.
+- Carga com anéis brancos e azuis, partículas convergentes e som energético. Um disparo rápido aguarda o tanque terminar de se encaixar e preserva a força escolhida. O retorno termina antes de liberar o próximo turno.
+- Arsenal, ajuda e instruções atualizados para seis opções. R reinicia a partida e restaura o uso do especial para ambos os jogadores.
+- Validação com 39 testes Godot, incluindo 76 cenários de alcance, regras do DoomShot nas duas fases e nos dois times, e 21 cenários do launcher. Executável exportado, renderização e atualização pública com confirmação também validados.
+
 ## v0.9.0 — 09/11/2026
 
 Esta versão reúne os ajustes desde a v0.8.0.
